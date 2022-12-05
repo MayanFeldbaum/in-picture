@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(223, 223, 211);
+}
+
+.box {
+    background-image: url(../img/adelin-preda--tOr_T4qTpQ-unsplash.jpg);
+    width: 700px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.winning {
+    background-image: url("../img/confetti.png");
+    width: 250px;
+    height: 150px;
+    padding: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bodoni Moda', serif;
+}
+
+
+.picture {
+    width: 550px;
+    height: 400px;
+    object-fit: fill;
+    border-style: solid;
+    border-color: rgb(249, 249, 249);
+    background-color: rgb(245, 241, 222);
+    margin: 20px;
+    border-radius: 80px;
+}
+
+.answer-box {
+    width: 500px;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 50px;
+    background-color: rgb(245, 241, 222);
+    cursor: pointer;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 25px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#btn {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(107, 179, 99);
+    border-radius: 20px;
+    border-style: none;
+    font-size: medium;
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.answer-box:hover {
+    background-color: rgb(132, 60, 128);
+    transition: 0.2s;
+}
